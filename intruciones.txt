@@ -4,3 +4,4 @@ Aplicación Web para Congresos:
     Realización de inscripción, realización de pagos, reporte de facturación, pestañas para los menús para el registro de ponentes, 
     de revisores, de jurados, participantes en general. Sitio en dónde los usuarios pueden subir sus artículos a presentar. 
     La aplicación será capaz de imprimir diplomas de asistencia y participación.
+baba
