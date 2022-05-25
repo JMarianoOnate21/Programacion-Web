@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME 
+    pagina usada https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <!--jquery-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--javascript-->
+    <script src="main.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!--bootstrap-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--cookies: https://www.osano.com/cookieconsent/download/ -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <!--estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <title>Congresos</title>
+</head>
+
+<body>
+
+    <!--cookies-->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#252e39"
+                },
+                "button": {
+                    "background": "transparent",
+                    "text": "#14a7d0",
+                    "border": "#14a7d0"
+                }
+            },
+            "position": "bottom-left",
+            "type": "opt-out"
+        });
+    </script>
+    <!--multi idiomas-->
+    <div class="form-switch multi-idioma">
+        <span class="en">English</span>
+        <input type="checkbox" class="form-check-input" id="check">
+        <span class="es">Spanish</span>
+    </div>
+
+    <!--chat de whatsapp-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=4444691171&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20congresos%20y%20los%20cursos"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <header>
+        <div class="showcase">
+            <h2>Big News Today</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eveniet quasi. Minima impedit ad
+                reprehenderit magnam velit dignissimos est esse commodi, fuga ullam doloribus cupiditate eius quae
+                ducimus quasi! Error?</p>
+            <a href="#" class="btn">Read More <i class="fas fa-angle-double-right">
+                    <!--icono de las rallitas -->
+                </i></a>
+
+        </div>
+
+        <nav class="nav-main">
+            <ul class="nav-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#topics">Temas</a></li>
+                <li><a href="#Eventos">Eventos</a></li>
+                <li><a href="#Programa">Programa</a></li>
+                <li><a href="#">Ponencias</a></li>
+                <li><a href="#myCarousel">Cursos</a></li>
+                <li><a href="#Registro">Registro</a></li>
+            </ul>
+            <!--icono de busqueda-->
+            <ul class="nav-menu-right">
+                <li>
+
+                    <a href="#">
+                        <!--ocupa la libreria font awesome-->
+                        <i class="fas fa-search">
+                            <!--icono de busqueda-->
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Banner-->
+    <div class="container">
+        <section class="banner-one">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque minus iste tempora? Dolorum unde qui
+                    alias a eum soluta sit.</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Topics-->
+    <section class="topics" id="topics">
+        <h1>Temas</h1>
+        <div class="container temas" style="background: #100f1a;">
+            <div>
+                <h3>Lorem, ipsum dolor.</h3><br>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Lorem, ipsum dolor.</h3><br>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Lorem, ipsum dolor.</h3><br>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Lorem, ipsum dolor.</h3><br>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end Topics -->
+
+    <!--Eventos-->
+    <section class="container" id="Eventos">
+
+        <h1 class="titulo-evento">Eventos</h1>
+        <div class="eventos">
+            <div class="evento">
+                <img src="img/evento-1.jpg" alt="Evento 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
+                    repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div class="evento">
+                <img src="img/evento-2.jpg" alt="Evento 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
+                    repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div class="evento">
+                <img src="img/evento-3.jpg" alt="Evento 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
+                    repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div class="evento">
+                <img src="img/evento-4.jpg" alt="Evento 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
+                    repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
+                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- end Eventos-->
+
+    <!--banner two-->
+    <div class="container">
+        <section class="banner-two">
+            <div class="content">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque in ipsa sit! Minima
+                    atque iure ab at reiciendis dolores magni impedit fugit, cumque delectus corporis, fuga eligendi
+                    laudantium deleniti!</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <!--programas-->
+    <section class="container" id="Programa">
+        <h1 class="titulo-evento">Programa</h1>
+        <div class="programa">
+            <!--programa = wrap -->
+
+            <ul class="tabs">
+                <!--pestañas = tabs-->
+                <li><a href="#tab1">Dia 1</a></li>
+                <li><a href="#tab2">Dia 2</a></li>
+                <li><a href="#tab3">Dia 3</a></li>
+                <li><a href="#tab4">Dia 4</a></li>
+            </ul>
+
+            <div class="secciones">
+                <article id="tab1">
+                    <h1>Inicio</h1>
+                    <h3>Hora: Lorem, ipsum.</h3>
+                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
+                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
+                    <h3>Actividad Lorem, ipsum dolor.</h3>
+                    <p><b>Descripcion: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio
+                        voluptate. Aliquam incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit
+                        provident, voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores
+                        omnis placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam,
+                        perferendis id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia,
+                        pariatur iusto, ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi,
+                        molestias quia perspiciatis architecto repudiandae quod.</p>
+                </article>
+                <article id="tab2">
+                    <h1>Lorem.</h1>
+                    <h3>Hora: Lorem, ipsum.</h3>
+                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
+                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
+                    <h3>Actividad Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates unde, consequuntur
+                        aliquid architecto rem numquam expedita minima dolorem pariatur recusandae, eius quod quia
+                        aspernatur id impedit, tenetur! Aspernatur incidunt molestiae dolores animi ea praesentium ipsam
+                        tenetur voluptas cupiditate perspiciatis eum nihil, natus exercitationem libero earum fuga
+                        dignissimos impedit numquam, quasi, placeat officiis voluptates, ad reprehenderit fugiat? Fugiat
+                        aperiam et magni, molestiae, numquam consectetur vitae sapiente cupiditate totam laboriosam
+                        voluptate obcaecati, aliquam placeat? Suscipit dolores fuga laudantium sed, qui magni iusto
+                        dolore quia. Quis fugit exercitationem porro. Rerum nihil omnis recusandae ratione fuga alias
+                        eligendi, earum sunt veritatis praesentium eum perspiciatis. Molestias deserunt, iure neque
+                        animi quod! Impedit reprehenderit cumque, numquam velit quae cum eius quidem similique
+                        laudantium hic deleniti!</p>
+                </article>
+                <article id="tab3">
+                    <h1>Lorem.</h1>
+                    <h3>Hora: Lorem, ipsum.</h3>
+                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
+                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
+                    <h3>Actividad Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam
+                        incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident,
+                        voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis
+                        placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis
+                        id ratione culpa dolorum! Nemo, animi?</p><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dignissimos at esse, ipsum
+                        rerum assumenda nisi obcaecati! Aliquam iure voluptatem incidunt, explicabo sit labore,
+                        perferendis eius ad vel quia. Praesentium, doloribus. Quisquam provident nostrum totam itaque
+                        debitis, minima, tempore dolores!</p>
+                </article>
+                <article id="tab4">
+                    <h1>Cierre</h1>
+                    <h3>Hora: Lorem, ipsum.</h3>
+                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
+                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
+                    <h3>Actividad Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam
+                        incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident,
+                        voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis
+                        placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis
+                        id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia, pariatur iusto,
+                        ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi, molestias quia
+                        perspiciatis architecto repudiandae quod.</p><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa ducimus amet at cumque sed
+                        numquam, explicabo impedit optio quas iste aperiam quidem ipsam rerum libero voluptatibus
+                        perferendis officiis voluptatum!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--Cursos-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>-->
+                <img src="img/curso1.jpg" alt="Curso 1" width="100%" height="100%">
+
+                <!--contenido curso 1-->
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Cursos 1.</h1>
+                        <p>descripción: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor similique
+                            nostrum libero consectetur earum placeat blanditiis fugit aut perspiciatis eius.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">lean more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>-->
+                <img src="img/curso-2.jpg" alt="Curso 2" width="100%" height="100%">
+
+                <!--contenido curso 2-->
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Curso 2</h1>
+                        <p>descripción: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis
+                            assumenda animi illum ipsam sequi perferendis excepturi rerum, minima nisi!</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777" />
+                </svg>-->
+                <img src="img/curso2.jpg" alt="Curso 3" width="100%" height="100%">
+
+                <!--contenido curso 3-->
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Curso 3.</h1>
+                        <p>descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam
+                            magnam quas reprehenderit doloremque architecto mollitia asperiores debitis repellendus
+                            nobis?</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+        ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" style="background: #100f1a; padding-top: 40px;">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>-->
+                <img src="img/catedratico1.jpg" alt="catedratico 1" width="140" height="140" class="rounded-circle">
+
+                <h2 class="fw-normal">Catedratica Curso 1</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum a esse consequuntur itaque sed, in
+                    cum aperiam deserunt atque officiis!</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>-->
+                <img src="img/catedratica2.jpg" alt="catedratico 2" width="140" height="140" class="rounded-circle">
+
+                <h2 class="fw-normal">Catedratica Curso 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic vel modi doloremque expedita beatae cum
+                    mollitia. Eveniet necessitatibus tenetur quod.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>-->
+                <img src="img/catedratico3.jpg" alt="catedratico 3" width="140" height="140" class="rounded-circle">
+                <h2 class="fw-normal">Catedratica Curso 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic vel modi doloremque expedita beatae cum
+                    mollitia. Eveniet necessitatibus tenetur quod.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll
+                        blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+                    prose here.</p>
+            </div>
+            <div class="col-md-5">
+                <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                        dy=".3em">500x500</text>
+                </svg>-->
+                <img src="img/images.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for
+                        yourself.</span></h2>
+                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
+                    this layout would work with some actual real-world content in place.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                        dy=".3em">500x500</text>
+                </svg>-->
+                <img src="img/images.jpg" alt="" width="100%" height="100%">
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
+                        class="text-muted">Checkmate.</span></h2>
+                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+                    intended to be actually read, simply here to give you a better view of what this would look like
+                    with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
+                        dy=".3em">500x500</text>
+                </svg>-->
+                <img src="img/images.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+    <!--Registro-->
+    <div id="Registro" style="background: url(img/topicos.jpg); padding: 50px 0;">
+
+        <div class="container" style="background: #100f1a;">
+
+            <form class="formulario" method="post">
+                <fieldset class="contenedor-campos">
+                    <legend>Registrate para los cursos y congresos</legend>
+
+                    <div class="row campo">
+                        <div class="col">
+                            <label>Nombre</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <label>Apellido</label>
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        <div class="col">
+                            <label>Teléfono</label>
+                            <input type="tel" placeholder="Télefono"><br>
+                        </div>
+                    </div>
+
+                    <div class="row campo">
+                        <div class="col">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="col">
+                            <label>Usuario</label>
+                            <input type="text" class="form-control" placeholder="Nombre"><br><br>
+                        </div>
+                        <div class="col">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="form-control"></textarea><br>
+                    </div>
+
+                </fieldset>
+                <div class="enviar" style="text-align: center;">
+                    <button class="btn" type="submit" value="registrar">Registrarse</button>
+                    <a class="btn" href="login.html">Iniciar Sesion</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container temas">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.3234763922137!2d-100.94014778504793!3d22.151755585400956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa22a4dab0a7b%3A0x1ecd42feb6e0a935!2sInstituto%20Tecnol%C3%B3gico%20de%20San%20Luis%20Potos%C3%AD!5e0!3m2!1ses-419!2smx!4v1653267319565!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <p><strong>Dirección:</strong>&nbsp;<br>Tecnológico S/N, Col. Unidad, Ponciano Arriaga
+                    <br>C.P 78436 .<br>Soledad de Graciano Sánchez. <br>S.L.P.<br>
+                    <br><strong>Teléfono:</strong>&nbsp;<br>444 818 2136<br>444 469 1171<br>
+                </p>
+                <p class="mbr-text"><strong>Horarios de atención:</strong><br>Lunes a Viernes: de 9:00 A.M. a 6:00
+                    P.M.</p>
+            </div>
+        </div>
+
+
+
+
+        <br>© Copyright 2022 &amp; S.A. de C.V. <br>
+        <h4>Ava Corp</h4>
+    </footer>
+</body>
+
+</html>
