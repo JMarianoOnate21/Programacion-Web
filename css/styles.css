@@ -31,6 +31,16 @@ ul{
     margin: auto;/*centrado*/
     margin-top: 40px;
 }
+/*navegacion ---------------------------------------------------------------------------------------------------------------------------------------------*/
+.menu-btn {
+
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+    display: none;
+}
 
 .nav-main {
     font-size: 17px;
@@ -80,7 +90,7 @@ ul{
 .showcase{
     height: 550px;
     width: 100%;  
-    background: url('../img/images.jpg') no-repeat center center/cover;
+    background: url('../img/Congresos.jpg') no-repeat center center/cover;
     /*imagen principal, para mas esta pexels.com*/
     padding: 50px;/*para los elementos de abajo*/
     margin-bottom: 20px;/*margen para separar las columnas de abajo*/
@@ -94,6 +104,13 @@ ul{
 .showcase h2,
 .showcase p{
     margin-bottom: 10px; /*espacio entre el h2 y el parrafo*/
+
+}
+
+.contenedor{
+    text-align: center;
+    background: #100f1a;
+    padding: 20px;
 }
 
 .btn{

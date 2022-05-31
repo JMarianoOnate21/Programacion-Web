@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/whatsapp.css">
+    <link rel="stylesheet" type="text/css" href="../css/media-queries.css">
     <title>Congresos</title>
 </head>
 
@@ -49,8 +50,8 @@
     </script>
     <!--multi idiomas-->
     <div class="form-switch multi-idioma">
-        <span class="en">English</span>
-        <input type="checkbox" class="form-check-input" id="check">
+        <span class="en" style="color: blue;">English</span>
+        <input type="checkbox" class="form-check-input check" id="check">
         <span class="es">Spanish</span>
     </div>
 
@@ -63,25 +64,32 @@
 
     <header>
         <div class="showcase">
-            <h2>Big News Today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eveniet quasi. Minima impedit ad
-                reprehenderit magnam velit dignissimos est esse commodi, fuga ullam doloribus cupiditate eius quae
-                ducimus quasi! Error?</p>
-            <a href="#" class="btn">Read More <i class="fas fa-angle-double-right">
-                    <!--icono de las rallitas -->
-                </i></a>
+            <div class="contenedor">
+                <h2>Big News Today</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eveniet quasi. Minima impedit ad
+                    reprehenderit magnam velit dignissimos est esse commodi, fuga ullam doloribus cupiditate eius quae
+                    ducimus quasi! Error?</p>
+                <a href="https://www.canaldelcongreso.gob.mx/" class="btn">Read More <i class="fas fa-angle-double-right">
+                        <!--icono de las rallitas -->
+                    </i></a>
+            </div>
+            
 
+        </div>
+
+        <div class="menu-btn"> 
+            <i class="fas fa-bars"></i>
         </div>
 
         <nav class="nav-main">
             <ul class="nav-menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#topics">Temas</a></li>
-                <li><a href="#Eventos">Eventos</a></li>
-                <li><a href="#Programa">Programa</a></li>
-                <li><a href="#">Ponencias</a></li>
-                <li><a href="#myCarousel">Cursos</a></li>
-                <li><a href="#Registro">Registro</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#Eventos">Events</a></li>
+                <li><a href="#Programa">Program</a></li>
+                <li><a href="#">Papers</a></li>
+                <li><a href="#myCarousel">Courses</a></li>
+                <li><a href="#Registro">Registration</a></li>
             </ul>
             <!--icono de busqueda-->
             <ul class="nav-menu-right">
@@ -112,7 +120,7 @@
 
     <!-- Topics-->
     <section class="topics" id="topics">
-        <h1>Temas</h1>
+        <h1>Topics</h1>
         <div class="container temas" style="background: #100f1a;">
             <div>
                 <h3>Lorem, ipsum dolor.</h3><br>
@@ -204,35 +212,35 @@
     <!--Eventos-->
     <section class="container" id="Eventos">
 
-        <h1 class="titulo-evento">Eventos</h1>
+        <h1 class="titulo-evento">Events</h1>
         <div class="eventos">
             <div class="evento">
                 <img src="img/evento-1.jpg" alt="Evento 1">
                 <h3>Lorem, ipsum dolor.</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
                     repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                <a href="https://crcongresos.com.mx/">Learn More <i class="fas fa-angle-double-right"></i></a>
             </div>
             <div class="evento">
                 <img src="img/evento-2.jpg" alt="Evento 2">
                 <h3>Lorem, ipsum dolor.</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
                     repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                <a href="https://conisoft.org/2015/">Learn More <i class="fas fa-angle-double-right"></i></a>
             </div>
             <div class="evento">
                 <img src="img/evento-3.jpg" alt="Evento 3">
                 <h3>Lorem, ipsum dolor.</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
                     repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                <a href="https://conisoft.org/2018/public/">Learn More <i class="fas fa-angle-double-right"></i></a>
             </div>
             <div class="evento">
                 <img src="img/evento-4.jpg" alt="Evento 4">
                 <h3>Lorem, ipsum dolor.</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa aspernatur dolor numquam
                     repellat officia. Est, obcaecati. Inventore, commodi possimus?</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                <a href="http://www.isum2018.udg.mx/">Learn More <i class="fas fa-angle-double-right"></i></a>
             </div>
 
         </div>
@@ -254,87 +262,56 @@
 
     <!--programas-->
     <section class="container" id="Programa">
-        <h1 class="titulo-evento">Programa</h1>
+        <h1 class="titulo-evento">Program</h1>
         <div class="programa">
             <!--programa = wrap -->
 
             <ul class="tabs">
                 <!--pestañas = tabs-->
-                <li><a href="#tab1">Dia 1</a></li>
-                <li><a href="#tab2">Dia 2</a></li>
-                <li><a href="#tab3">Dia 3</a></li>
-                <li><a href="#tab4">Dia 4</a></li>
+                <li><a href="#tab1">Day 1</a></li>
+                <li><a href="#tab2">Day 2</a></li>
+                <li><a href="#tab3">Day 3</a></li>
+                <li><a href="#tab4">Day 4</a></li>
             </ul>
 
             <div class="secciones">
                 <article id="tab1">
-                    <h1>Inicio</h1>
-                    <h3>Hora: Lorem, ipsum.</h3>
-                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
-                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
-                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
-                    <h3>Actividad Lorem, ipsum dolor.</h3>
-                    <p><b>Descripcion: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio
-                        voluptate. Aliquam incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit
-                        provident, voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores
-                        omnis placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam,
-                        perferendis id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia,
-                        pariatur iusto, ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi,
-                        molestias quia perspiciatis architecto repudiandae quod.</p>
+                    <h1>Home</h1>
+                    <h3>Time: <input type="text" id="hora0" value="cargando..."> </h3> 
+                    <h3>Date: <input type="text" id="fecha0" value="cargando..."> </h3>
+                    <h3>Rapporteur: <input type="text" id="ponente0" value="cargando..."> </h3>
+                    <h3>Contact: <input type="text" id="contacto0" value="cargando..."> </h3>
+                    <h3>Activity: <input type="text" id="actividad0" value="cargando..."> </h3>
+                    <p><b>Description: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident, voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia, pariatur iusto, ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi, molestias quia perspiciatis architecto repudiandae quod.</p>
                 </article>
                 <article id="tab2">
                     <h1>Lorem.</h1>
-                    <h3>Hora: Lorem, ipsum.</h3>
-                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
-                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
-                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
-                    <h3>Actividad Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates unde, consequuntur
-                        aliquid architecto rem numquam expedita minima dolorem pariatur recusandae, eius quod quia
-                        aspernatur id impedit, tenetur! Aspernatur incidunt molestiae dolores animi ea praesentium ipsam
-                        tenetur voluptas cupiditate perspiciatis eum nihil, natus exercitationem libero earum fuga
-                        dignissimos impedit numquam, quasi, placeat officiis voluptates, ad reprehenderit fugiat? Fugiat
-                        aperiam et magni, molestiae, numquam consectetur vitae sapiente cupiditate totam laboriosam
-                        voluptate obcaecati, aliquam placeat? Suscipit dolores fuga laudantium sed, qui magni iusto
-                        dolore quia. Quis fugit exercitationem porro. Rerum nihil omnis recusandae ratione fuga alias
-                        eligendi, earum sunt veritatis praesentium eum perspiciatis. Molestias deserunt, iure neque
-                        animi quod! Impedit reprehenderit cumque, numquam velit quae cum eius quidem similique
-                        laudantium hic deleniti!</p>
+                    <h3>Time: <input type="text" id="hora1" value="cargando..."> </h3> 
+                    <h3>Date: <input type="text" id="fecha1" value="cargando..."> </h3>
+                    <h3>Rapporteur: <input type="text" id="ponente1" value="cargando..."> </h3>
+                    <h3>Contact: <input type="text" id="contacto1" value="cargando..."> </h3>
+                    <h3>Activity: <input type="text" id="actividad1" value="cargando..."> </h3>
+                    <p><b>Description: </b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates unde, consequuntur aliquid architecto rem numquam expedita minima dolorem pariatur recusandae, eius quod quia aspernatur id impedit, tenetur! Aspernatur incidunt molestiae dolores animi ea praesentium ipsam tenetur voluptas cupiditate perspiciatis eum nihil, natus exercitationem libero earum fuga dignissimos impedit numquam, quasi, placeat officiis voluptates, ad reprehenderit fugiat? Fugiat aperiam et magni, molestiae, numquam consectetur vitae sapiente cupiditate totam laboriosam voluptate obcaecati, aliquam placeat? Suscipit dolores fuga laudantium sed, qui magni iusto dolore quia. Quis fugit exercitationem porro. Rerum nihil omnis recusandae ratione fuga alias eligendi, earum sunt veritatis praesentium eum perspiciatis. Molestias deserunt, iure neque animi quod! Impedit reprehenderit cumque, numquam velit quae cum eius quidem similique laudantium hic deleniti!</p>
                 </article>
                 <article id="tab3">
                     <h1>Lorem.</h1>
-                    <h3>Hora: Lorem, ipsum.</h3>
-                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
-                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
-                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
-                    <h3>Actividad Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam
-                        incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident,
-                        voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis
-                        placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis
-                        id ratione culpa dolorum! Nemo, animi?</p><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dignissimos at esse, ipsum
-                        rerum assumenda nisi obcaecati! Aliquam iure voluptatem incidunt, explicabo sit labore,
-                        perferendis eius ad vel quia. Praesentium, doloribus. Quisquam provident nostrum totam itaque
-                        debitis, minima, tempore dolores!</p>
+                    <h3>Time: <input type="text" id="hora2" value="cargando..."> </h3> 
+                    <h3>Date: <input type="text" id="fecha2" value="cargando..."> </h3>
+                    <h3>Rapporteur: <input type="text" id="ponente2" value="cargando..."> </h3>
+                    <h3>Contact: <input type="text" id="contacto2" value="cargando..."> </h3>
+                    <h3>Activity: <input type="text" id="actividad2" value="cargando..."> </h3>
+                    <p><b>Description: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident, voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis id ratione culpa dolorum! Nemo, animi?</p><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum dignissimos at esse, ipsum rerum assumenda nisi obcaecati! Aliquam iure voluptatem incidunt, explicabo sit labore, perferendis eius ad vel quia. Praesentium, doloribus. Quisquam provident nostrum totam itaque debitis, minima, tempore dolores!</p>
                 </article>
                 <article id="tab4">
-                    <h1>Cierre</h1>
-                    <h3>Hora: Lorem, ipsum.</h3>
-                    <h3>Fecha: Lorem ipsum dolor sit amet consectetur.</h3>
-                    <h3>Ponente: Lorem ipsum dolor sit.</h3>
-                    <h3>Contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates!</h3>
-                    <h3>Actividad Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam
-                        incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident,
-                        voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis
-                        placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis
-                        id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia, pariatur iusto,
-                        ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi, molestias quia
-                        perspiciatis architecto repudiandae quod.</p><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa ducimus amet at cumque sed
-                        numquam, explicabo impedit optio quas iste aperiam quidem ipsam rerum libero voluptatibus
-                        perferendis officiis voluptatum!</p>
+                    <h1>Closing</h1>
+                    <h3>Time: <input type="text" id="hora3" value="cargando..."> </h3> 
+                    <h3>Date: <input type="text" id="fecha3" value="cargando..."> </h3>
+                    <h3>Rapporteur: <input type="text" id="ponente3" value="cargando..."> </h3>
+                    <h3>Contact: <input type="text" id="contacto3" value="cargando..."> </h3>
+                    <h3>Activity: <input type="text" id="actividad3" value="cargando..."> </h3>
+                    <p><b>Description: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident, voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia, pariatur iusto, ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi, molestias quia perspiciatis architecto repudiandae quod.</p><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsa ducimus amet at cumque sed numquam, explicabo impedit optio quas iste aperiam quidem ipsam rerum libero voluptatibus perferendis officiis voluptatum!</p>
                 </article>
             </div>
         </div>
@@ -359,10 +336,10 @@
                 <!--contenido curso 1-->
                 <div class="container">
                     <div class="carousel-caption text-start">
-                        <h1>Cursos 1.</h1>
-                        <p>descripción: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor similique
+                        <h1>Courses 1.</h1>
+                        <p>description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor similique
                             nostrum libero consectetur earum placeat blanditiis fugit aut perspiciatis eius.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">lean more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#curso1">lean more</a></p>
                     </div>
                 </div>
             </div>
@@ -376,10 +353,10 @@
                 <!--contenido curso 2-->
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Curso 2</h1>
-                        <p>descripción: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis
+                        <h1>Courses 2</h1>
+                        <p>description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis
                             assumenda animi illum ipsam sequi perferendis excepturi rerum, minima nisi!</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#curso2">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -393,11 +370,11 @@
                 <!--contenido curso 3-->
                 <div class="container">
                     <div class="carousel-caption text-end">
-                        <h1>Curso 3.</h1>
-                        <p>descripcion: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam
+                        <h1>Courses 3.</h1>
+                        <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam
                             magnam quas reprehenderit doloremque architecto mollitia asperiores debitis repellendus
                             nobis?</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#curso3">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -419,7 +396,8 @@
 
     <div class="container marketing" style="background: #100f1a; padding-top: 40px;">
 
-        <!-- Three columns of text below the carousel -->
+        <!-- Three columns of text below the carousel 
+             maestros xd de los cursos-->
         <div class="row">
             <div class="col-lg-4">
                 <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
@@ -431,7 +409,7 @@
                 </svg>-->
                 <img src="img/catedratico1.jpg" alt="catedratico 1" width="140" height="140" class="rounded-circle">
 
-                <h2 class="fw-normal">Catedratica Curso 1</h2>
+                <h2 class="fw-normal">Professor Course 1</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum a esse consequuntur itaque sed, in
                     cum aperiam deserunt atque officiis!</p>
                 <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
@@ -446,7 +424,7 @@
                 </svg>-->
                 <img src="img/catedratica2.jpg" alt="catedratico 2" width="140" height="140" class="rounded-circle">
 
-                <h2 class="fw-normal">Catedratica Curso 2</h2>
+                <h2 class="fw-normal">Professor Course 2</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic vel modi doloremque expedita beatae cum
                     mollitia. Eveniet necessitatibus tenetur quod.</p>
                 <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
@@ -460,7 +438,7 @@
                         dy=".3em">140x140</text>
                 </svg>-->
                 <img src="img/catedratico3.jpg" alt="catedratico 3" width="140" height="140" class="rounded-circle">
-                <h2 class="fw-normal">Catedratica Curso 3</h2>
+                <h2 class="fw-normal">Professor Course 3</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic vel modi doloremque expedita beatae cum
                     mollitia. Eveniet necessitatibus tenetur quod.</p>
                 <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
@@ -468,16 +446,19 @@
         </div><!-- /.row -->
 
 
-        <!-- START THE FEATURETTES -->
+        <!-- informacion de los cursos-->
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="curso1">
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll
-                        blow your mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                    prose here.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Course 1 - <span class="text-muted">Lorem ipsum dolor sit amet</span></h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="col-md-5">
                 <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -487,18 +468,21 @@
                     <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
                         dy=".3em">500x500</text>
                 </svg>-->
-                <img src="img/images.jpg" alt="" width="100%" height="100%">
+                <img src="img/curso1.jpg" alt="" width="100%" height="100%">
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="curso2">
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for
-                        yourself.</span></h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
-                    this layout would work with some actual real-world content in place.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Course 2 - <span class="text-muted">Lorem ipsum dolor sit amet.</span></h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="col-md-5 order-md-1">
                 <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -508,20 +492,23 @@
                     <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
                         dy=".3em">500x500</text>
                 </svg>-->
-                <img src="img/images.jpg" alt="" width="100%" height="100%">
+                <img src="img/curso2.jpg" alt="curso 2" width="100%" height="100%">
 
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="curso3">
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-                        class="text-muted">Checkmate.</span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-                    intended to be actually read, simply here to give you a better view of what this would look like
-                    with some actual content. Your content.</p>
+                <h2 class="featurette-heading fw-normal lh-1">course 3 - <span
+                        class="text-muted">Lorem ipsum dolor sit amet</span></h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="col-md-5">
                 <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -531,7 +518,7 @@
                     <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
                         dy=".3em">500x500</text>
                 </svg>-->
-                <img src="img/images.jpg" alt="" width="100%" height="100%">
+                <img src="img/curso-2.jpg" alt="" width="100%" height="100%">
             </div>
         </div>
 
@@ -546,22 +533,22 @@
 
         <div class="container" style="background: #100f1a;">
 
-            <form class="formulario" method="post">
+            <form class="formulario" method="post" action="php/registrar.php">
                 <fieldset class="contenedor-campos">
-                    <legend>Registrate para los cursos y congresos</legend>
+                    <legend>Register for courses and congresses</legend>
 
                     <div class="row campo">
                         <div class="col">
-                            <label>Nombre</label>
-                            <input type="text" class="form-control" placeholder="First name">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="First name" name="name" required>
                         </div>
                         <div class="col">
-                            <label>Apellido</label>
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <label>Last name</label>
+                            <input type="text" class="form-control" placeholder="Last name" name="apellido" required>
                         </div>
                         <div class="col">
-                            <label>Teléfono</label>
-                            <input type="tel" placeholder="Télefono"><br>
+                            <label>Phone</label>
+                            <input type="tel" class="form-control" placeholder="Phone" name="tel" required><br>
                         </div>
                     </div>
 
@@ -569,30 +556,33 @@
                         <div class="col">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
+                                aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+                            <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>-->
                         </div>
                         <div class="col">
-                            <label>Usuario</label>
-                            <input type="text" class="form-control" placeholder="Nombre"><br><br>
+                            <label>User</label>
+                            <input type="text" class="form-control" placeholder="User name" name="user" required><br><br>
                         </div>
                         <div class="col">
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password">
+                                placeholder="Password" name="pwd" required>
                         </div>
                     </div>
+
+                    <!--
 
                     <div class="campo">
                         <label>Mensaje</label>
                         <textarea class="form-control"></textarea><br>
                     </div>
 
+                    -->
                 </fieldset>
                 <div class="enviar" style="text-align: center;">
-                    <button class="btn" type="submit" value="registrar">Registrarse</button>
-                    <a class="btn" href="login.html">Iniciar Sesion</a>
+                    <button class="btn" type="submit" value="registrar">Register</button>
+                    <a class="btn" href="login.html">Login</a>
                 </div>
             </form>
         </div>
@@ -605,11 +595,11 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div>
-                <p><strong>Dirección:</strong>&nbsp;<br>Tecnológico S/N, Col. Unidad, Ponciano Arriaga
+                <p><strong>Address:</strong>&nbsp;<br>Tecnológico S/N, Col. Unidad, Ponciano Arriaga
                     <br>C.P 78436 .<br>Soledad de Graciano Sánchez. <br>S.L.P.<br>
                     <br><strong>Teléfono:</strong>&nbsp;<br>444 818 2136<br>444 469 1171<br>
                 </p>
-                <p class="mbr-text"><strong>Horarios de atención:</strong><br>Lunes a Viernes: de 9:00 A.M. a 6:00
+                <p class="mbr-text"><strong>Hours of operation:</strong><br>Monday through Friday: from 9:00 A.M. to 6:00
                     P.M.</p>
             </div>
         </div>

@@ -17,14 +17,14 @@
             {
                 "Hora": "13:00 - 18:00",
                 "Fecha": "27/11/2022",
-                "Ponente": "Araceli Hernadez De la Cruz",
+                "Ponente": "Joshiel Aguilar Herrera",
                 "Contacto": "Facebook, twtiter",
                 "Actividad": "lorem ipsum dolor sit amet"  
             },
             {
                 "Hora": "13:00 - 18:00",
                 "Fecha": "28/11/2022",
-                "Ponente": "wendy carolina fernandez moreno",
+                "Ponente": "Rolando Araujo Avila",
                 "Contacto": "Facebook, twtiter",
                 "Actividad": "lorem ipsum dolor sit amet"  
             }

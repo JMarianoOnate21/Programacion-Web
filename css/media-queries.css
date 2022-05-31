@@ -1,0 +1,29 @@
+@media (max-width: 800px){
+	.menu-btn{
+		display: block;
+	}
+
+	 .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        background: #2f3640;
+        height: 100%;
+        padding: 20px;
+        opacity: .9;
+        transform: translateX(-400px);/*para que se oculte el menu*/
+        transition: transfrom .5s ease-in-out;/*casi como animación ceca en inter we :'v*/
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);/*que se acomode bien*/
+    }
+
+    .nav-main ul.nav-menu li {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .nav-main ul.nav-menu-right{
+        margin-right: 40px;
+    }
+}

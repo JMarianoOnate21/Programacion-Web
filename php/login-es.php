@@ -8,9 +8,10 @@
   $nr = pg_num_rows($consulta);
 
   if ($nr == 1) {
-    header("Location: ../view/inicio-sesion.php?user=$user"); /*redirije a la pagina*/
+    
+    header("Location: ../view/inicio-sesion-es.php?user=$user"); /*redirije a la pagina*/
 
   }else if($nr == 0){
-    echo "<script>alert('error logging in, incorrect password or incorrect user'); location='../login.html'</script>";
+    echo "<script>alert('error al iniciar sesion, contraseña o usuario incorrecto'); location='../es/login.html'</script>";
   }
 ?>
